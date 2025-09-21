@@ -1,5 +1,7 @@
 # Football Tweet Classification Using Supervised Learning and NLP
 
+*Completion Date: 21/06/2025*
+
 ## Overview
 This project applies supervised machine learning to classify tweets from London as either football-related or not. Tweets were weakly labelled using domain-specific keywords, with a manually labelled gold-standard set held out for evaluation. Three models were trained and compared: Naive Bayes, Logistic Regression, and Support Vector Machine (SVM).
 
