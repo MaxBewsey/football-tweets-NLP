@@ -21,12 +21,6 @@ This project applies supervised machine learning to classify tweets from London 
 - **Evaluation:** confusion matrices, precision, recall, F1 score  
 - **Libraries:** pandas, numpy, scikit-learn, matplotlib  
 
-## Repo Structure
-- data/
-  - london
-- notebooks/
-  - Football Tweet Classification Using Supervised Learning and NLP
-
 ## Results
 - **Naive Bayes** achieved the best balance of precision and F1 score  
 - All models struggled with recall due to **dataset imbalance** (few football-related tweets)  
@@ -36,3 +30,6 @@ This project applies supervised machine learning to classify tweets from London 
 - Incorporate additional contextual features (timestamps, hashtags, user mentions)  
 - Extend vectorisation with **n-grams** to capture football-specific phrases (e.g., "red card", "kick off")  
 - Explore methods to address class imbalance (e.g. resampling, alternative labelling strategies)  
+
+## Data
+The dataset used in this project was obtained through the Codecademy *'Build a Machine Learning Model'* Skill path. Due to licensing restrictions, the dataset will not be shared. 
